@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1 CCTV | NATA Accredited Sydney Pipe Inspection and Testing</title>
+<meta name="description" content="Sydney's trusted NATA accredited CCTV pipe inspection specialists. Sydney Water certified Field Tester. Sewer, stormwater and electrical conduit inspections. 20+ years experience.">
+<meta name="keywords" content="CCTV pipe inspection Sydney, sewer inspection, stormwater inspection, NATA accredited, Sydney Water Field Tester, pipe testing">
+<meta property="og:title" content="1 CCTV | NATA Accredited Sydney Pipe Inspection">
+<meta property="og:description" content="Sydney's trusted NATA accredited CCTV pipe inspection specialists. Sydney Water certified Field Tester. 20+ years experience.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "1 CCTV Pty Ltd",
+  "description": "NATA accredited CCTV sewer and stormwater pipe inspection services in Sydney. Sydney Water certified Field Tester.",
+  "areaServed": "Sydney, NSW",
+  "address": {"@type": "PostalAddress", "addressLocality": "Cobbitty", "addressRegion": "NSW", "postalCode": "2570", "addressCountry": "AU"},
+  "email": "admin@1cctv.com.au",
+  "telephone": "1300 567 400"
+}
+</script>
+<style>
+:root {
+  --bg: #0a0e1a;
+  --bg-2: #0f1525;
+  --surface: #131b30;
+  --accent: #00d4ff;
+  --accent-2: #0099cc;
+  --accent-glow: rgba(0, 212, 255, 0.15);
+  --text: #e8eef5;
+  --text-muted: #8a96b0;
+  --border: rgba(0, 212, 255, 0.12);
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+.progress-bar { position: fixed; top: 0; left: 0; height: 3px; width: 0%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); z-index: 9999; transition: width 0.1s; }
+.navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; transition: all 0.3s; background: transparent; }
+.navbar.scrolled { background: rgba(10, 14, 26, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0.7rem 2rem; }
+.nav-logo { font-size: 1.4rem; font-weight: 800; color: var(--text); letter-spacing: -0.5px; }
+.nav-logo span { color: var(--accent); }
+.nav-links { display: flex; gap: 2rem; align-items: center; }
+.nav-links a { color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+.nav-links a:hover { color: var(--accent); }
+.nav-cta { background: var(--accent); color: var(--bg) !important; padding: 0.5rem 1.2rem; border-radius: 8px; font-weight: 700 !important; }
+.nav-burger { display: none; background: none; border: none; color: var(--text); font-size: 1.5rem; cursor: pointer; }
+.hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 6rem 2rem 4rem; text-align: center; background: radial-gradient(ellipse at 50% 30%, var(--accent-glow), transparent 60%), var(--bg); }
+.hero-glow { position: absolute; width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(0,212,255,0.08), transparent 70%); top: 10%; left: 50%; transform: translateX(-50%); pointer-events: none; animation: pulse 4s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+.hero-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(0,212,255,0.1); border: 1px solid var(--border); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; color: var(--accent); margin-bottom: 1.5rem; font-weight: 600; }
+.hero h1 { font-size: clamp(2rem, 6vw, 4rem); font-weight: 800; line-height: 1.1; max-width: 800px; margin: 0 auto 1.5rem; letter-spacing: -1px; }
+.hero h1 .grad { background: linear-gradient(135deg, var(--accent), #66e0ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.hero p { font-size: 1.1rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 2rem; }
+.hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.btn { padding: 0.9rem 2rem; border-radius: 10px; font-weight: 700; font-size: 0.95rem; text-decoration: none; transition: all 0.2s; border: none; cursor: pointer; display: inline-flex; align-items: center; gap: 0.5rem; }
+.btn-primary { background: var(--accent); color: var(--bg); }
+.btn-primary:hover { background: #33dfff; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,212,255,0.3); }
+.btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+.btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+.stats { display: flex; justify-content: center; gap: 3rem; margin-top: 3rem; flex-wrap: wrap; }
+.stat { text-align: center; }
+.stat-num { font-size: 2.5rem; font-weight: 800; color: var(--accent); }
+.stat-label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+.marquee { overflow: hidden; padding: 1rem 0; background: var(--bg-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.marquee-track { display: flex; gap: 3rem; animation: scroll 20s linear infinite; white-space: nowrap; }
+.marquee-item { color: var(--text-muted); font-size: 0.9rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; }
+.marquee-item::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+@keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.section { padding: 5rem 2rem; max-width: 1200px; margin: 0 auto; }
+.section-title { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 800; text-align: center; margin-bottom: 0.5rem; letter-spacing: -0.5px; }
+.section-sub { text-align: center; color: var(--text-muted); margin-bottom: 3rem; font-size: 1rem; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+.service-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; position: relative; overflow: hidden; transition: all 0.3s; }
+.service-card::before { content: ''; position: absolute; top: -50%; right: -50%; width: 200%; height: 200%; background: radial-gradient(circle, var(--accent-glow), transparent 50%); opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+.service-card:hover::before { opacity: 1; }
+.service-card:hover { border-color: var(--accent); transform: translateY(-4px); }
+.service-icon { font-size: 2rem; margin-bottom: 1rem; }
+.service-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.5rem; }
+.service-card p { color: var(--text-muted); font-size: 0.9rem; }
+.process { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; margin-top: 2rem; }
+.process-step { text-align: center; }
+.process-num { width: 50px; height: 50px; border-radius: 50%; background: var(--accent); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.2rem; margin: 0 auto 1rem; }
+.process-step h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.3rem; }
+.process-step p { color: var(--text-muted); font-size: 0.85rem; }
+.accred { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
+.accred-badge { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem 2rem; text-align: center; min-width: 180px; }
+.accred-badge .icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.accred-badge .title { font-weight: 700; font-size: 0.95rem; }
+.accred-badge .desc { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.3rem; }
+.cta-section { text-align: center; padding: 5rem 2rem; position: relative; background: radial-gradient(ellipse at center, var(--accent-glow), transparent 70%), var(--bg-2); border-top: 1px solid var(--border); }
+.cta-section h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 800; margin-bottom: 1rem; }
+.cta-section p { color: var(--text-muted); margin-bottom: 2rem; }
+.float-btns { position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 999; display: flex; flex-direction: column; gap: 0.75rem; }
+.float-btn { width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 1.3rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: transform 0.2s; }
+.float-btn:hover { transform: scale(1.1); }
+.float-call { background: var(--accent); color: var(--bg); }
+.float-wa { background: #25D366; color: white; }
+footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 3rem 2rem 2rem; text-align: center; }
+footer .footer-info { color: var(--text-muted); font-size: 0.85rem; line-height: 1.8; }
+footer .footer-info a { color: var(--accent); text-decoration: none; }
+@media (max-width: 768px) {
+  .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-2); flex-direction: column; padding: 1rem; gap: 1rem; border-bottom: 1px solid var(--border); }
+  .nav-links.open { display: flex; }
+  .nav-burger { display: block; }
+  .stats { gap: 1.5rem; }
+  .stat-num { font-size: 1.8rem; }
+  .section { padding: 3rem 1rem; }
+}
+</style>
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<nav class="navbar" id="navbar">
+  <div class="nav-logo">1<span>CCTV</span></div>
+  <div class="nav-links" id="navLinks">
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#accreditation">Accreditation</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="nav-cta">Get a Quote</a>
+  </div>
+  <button class="nav-burger" onclick="document.getElementById('navLinks').classList.toggle('open')">&#9776;</button>
+</nav>
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-badge">&#9989; NATA Accredited · Sydney Water Certified Field Tester</div>
+  <h1>Sydney's Trusted <span class="grad">CCTV Pipe Inspection</span> Specialists</h1>
+  <p>NATA accredited CCTV sewer, stormwater and electrical conduit inspections. Sydney Water certified Field Tester with 20+ years of industry experience. Detailed Wincan reports delivered fast.</p>
+  <div class="hero-cta">
+    <a href="#contact" class="btn btn-primary">&#128221; Request a Quote</a>
+    <a href="#services" class="btn btn-secondary">Our Services</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="stat-num" data-target="20">0</div><div class="stat-label">Years Experience</div></div>
+    <div class="stat"><div class="stat-num" data-target="6">0</div><div class="stat-label">Core Services</div></div>
+    <div class="stat"><div class="stat-num" data-target="100">0</div><div class="stat-label">% NATA Certified</div></div>
+  </div>
+</section>
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item">Sydney Water Field Tester</span>
+    <span class="marquee-item">NATA Accredited</span>
+    <span class="marquee-item">Wincan Reporting</span>
+    <span class="marquee-item">Sewer Pipe Inspection</span>
+    <span class="marquee-item">Stormwater Inspection</span>
+    <span class="marquee-item">Deflection Testing</span>
+    <span class="marquee-item">Vacuum Testing</span>
+    <span class="marquee-item">Hydrostatic Testing</span>
+    <span class="marquee-item">Sydney Water Field Tester</span>
+    <span class="marquee-item">NATA Accredited</span>
+    <span class="marquee-item">Wincan Reporting</span>
+    <span class="marquee-item">Sewer Pipe Inspection</span>
+    <span class="marquee-item">Stormwater Inspection</span>
+    <span class="marquee-item">Deflection Testing</span>
+    <span class="marquee-item">Vacuum Testing</span>
+    <span class="marquee-item">Hydrostatic Testing</span>
+  </div>
+</div>
+<section class="section" id="services">
+  <h2 class="section-title">Our Inspection Services</h2>
+  <p class="section-sub">Comprehensive pipe inspection and testing for Sydney Water, councils, companies and individuals</p>
+  <div class="services-grid">
+    <div class="service-card"><div class="service-icon">&#128270;</div><h3>CCTV Sewer Pipe Inspection</h3><p>Identify defects in sewer pipeline installations including debris, surcharging, and structural issues with detailed Wincan reports.</p></div>
+    <div class="service-card"><div class="service-icon">&#127758;</div><h3>CCTV Stormwater Inspection</h3><p>Thorough stormwater drain inspections to identify blockages, cracks, and compliance issues for council and commercial assets.</p></div>
+    <div class="service-card"><div class="service-icon">&#9889;</div><h3>Electrical Conduit Inspection</h3><p>CCTV inspection of electrical conduits to verify installation integrity and identify obstructions before cable pulling.</p></div>
+    <div class="service-card"><div class="service-icon">&#128168;</div><h3>Vacuum Testing</h3><p>Maintenance hole and pipeline vacuum testing to verify structural integrity and watertightness of new installations.</p></div>
+    <div class="service-card"><div class="service-icon">&#128207;</div><h3>Deflection Testing</h3><p>Mandrel deflection testing of flexible pipelines to ensure compliance with AS/NZS 3500 dimensional standards.</p></div>
+    <div class="service-card"><div class="service-icon">&#128167;</div><h3>Hydrostatic Water Main Testing</h3><p>Pressure testing of water mains to verify integrity and compliance with Sydney Water and Water Services Association standards.</p></div>
+  </div>
+</section>
+<section class="section" id="process" style="background: var(--bg-2); max-width: 100%;">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <h2 class="section-title">How It Works</h2>
+    <p class="section-sub">Simple, efficient process from booking to compliance report</p>
+    <div class="process">
+      <div class="process-step"><div class="process-num">1</div><h4>Book Your Inspection</h4><p>Contact us for individuals, companies, councils, or Sydney Water testing requirements.</p></div>
+      <div class="process-step"><div class="process-num">2</div><h4>On-Site CCTV Survey</h4><p>Our trained technicians deploy tractor cameras and modern equipment to inspect your pipelines.</p></div>
+      <div class="process-step"><div class="process-num">3</div><h4>Wincan Report</h4><p>Detailed reports and footage generated using Wincan software, accessible via Wincan Web.</p></div>
+      <div class="process-step"><div class="process-num">4</div><h4>Compliance Certified</h4><p>NATA accredited reports that help you achieve Sydney Water and council compliance faster.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="accreditation">
+  <h2 class="section-title">Accreditation and Standards</h2>
+  <p class="section-sub">Meeting the highest industry standards for pipe inspection and testing</p>
+  <div class="accred">
+    <div class="accred-badge"><div class="icon">&#9989;</div><div class="title">NATA Accredited</div><div class="desc">National Association of Testing Authorities certified</div></div>
+    <div class="accred-badge"><div class="icon">&#128737;</div><div class="title">Sydney Water Field Tester</div><div class="desc">Certified for Sydney Water compliance testing</div></div>
+    <div class="accred-badge"><div class="icon">&#128202;</div><div class="title">Wincan Software</div><div class="desc">Industry-standard reporting accessible via Wincan Web</div></div>
+    <div class="accred-badge"><div class="icon">&#128218;</div><div class="title">AS/NZS 3500</div><div class="desc">Testing to Australian/New Zealand plumbing standards</div></div>
+  </div>
+</section>
+<section class="cta-section" id="contact">
+  <h2>Need a Pipe Inspection?</h2>
+  <p>Get fast, NATA accredited CCTV inspection reports. Serving Sydney Water, councils, companies and individuals.</p>
+  <div class="hero-cta">
+    <a href="tel:1300567400" class="btn btn-primary">&#128222; Call 1300 567 400</a>
+    <a href="mailto:admin@1cctv.com.au" class="btn btn-secondary">&#9993; admin@1cctv.com.au</a>
+  </div>
+  <p style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.85rem;">PO Box 180, Cobbitty NSW 2570 · Director: Jay Davidson</p>
+</section>
+<div class="float-btns">
+  <a href="tel:1300567400" class="float-btn float-call" title="Call us">&#128222;</a>
+  <a href="https://wa.me/611300567400" class="float-btn float-wa" title="WhatsApp">&#128172;</a>
+</div>
+<footer>
+  <div class="footer-info">
+    <strong style="color: var(--text); font-size: 1.1rem;">1 CCTV Pty Ltd</strong><br>
+    NATA Accredited CCTV Pipe Inspection and Testing Services<br>
+    PO Box 180, Cobbitty NSW 2570 · <a href="tel:1300567400">1300 567 400</a> · <a href="mailto:admin@1cctv.com.au">admin@1cctv.com.au</a><br>
+    <span style="opacity: 0.6; font-size: 0.75rem;">Sydney Water Certified Field Tester · 20+ Years Experience · Wincan Reporting</span><br>
+    <span style="opacity: 0.4; font-size: 0.7rem; margin-top: 0.5rem; display: inline-block;">Private demo website by LeadForge AI · Not deployed or published</span>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll', function() {
+  var h = document.documentElement.scrollHeight - window.innerHeight;
+  var p = (window.scrollY / h) * 100;
+  document.getElementById('progressBar').style.width = p + '%';
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+});
+var counters = document.querySelectorAll('.stat-num');
+var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) {
+      var target = parseInt(e.target.dataset.target);
+      var current = 0;
+      var step = Math.ceil(target / 30);
+      var timer = setInterval(function() {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        e.target.textContent = current;
+      }, 30);
+      observer.unobserve(e.target);
+    }
+  });
+});
+counters.forEach(function(c) { observer.observe(c); });
+document.querySelectorAll('.nav-links a').forEach(function(a) {
+  a.addEventListener('click', function() { document.getElementById('navLinks').classList.remove('open'); });
+});
+</script>
+</body>
+</html>
